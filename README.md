@@ -35,3 +35,42 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+# Stardust Software Installation & Environment Configuration on Windows
+
+## Preparation
+1. Install Python 2.7
+  1. Visit <https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi> to download 64-bit python 2;
+  +  Run the .exe file you've just download by double clicking, and finish installation follow the instructions. (Make sure to tick "add to path" during installation)
+  + Check version after finishing by command: \>`py -2 --version`;
+  + To find out more about python 2, see <https://docs.python.org/2/>;
++ Install & build virtual environment
+  1. Open cmd and type commands below:
+    
+    \>`cd C:\Users\xxx\` // xxx is your user name on Windows
+      1. Installation
+      
+        \>`py -2 -m pip install virtualenv`
+        
+        
+      2. Build Environment
+        
+        \>```mkdir Envs```
+        
+        \>`cd Envs`
+        
+        \>`py -2 -m virtualenv stardust`
+      3. Activate Environment
+      
+        \>`stardust\Script\activate`
+        
+        Note: Make sure there is a **(stardust)** on the right side of the command prompt like `(stardust) C:\Users\xxx\Envs\>`
+        
+        
+      4. Deactivate Environment
++ Install GitHub
+  * Visit <https://git-scm.com/download/win> to download git with command prompt only. Alternatively, you can choose GUI or portable version if you like;
+  * Run the .exe file you've just downloaded by double clicking, and finish installation follow the instructions.
+  * Open git.cmd (windows command prompt) or git.bash (linux command prompt) as you like;
+  * Enjoy :) (For more about git, see <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>)
++
