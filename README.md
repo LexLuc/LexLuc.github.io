@@ -46,7 +46,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    3. Check version after finishing by command: 
      
       \>`py -2 --version`
-   4. To find out more about python2, see <https://docs.python.org/2/>;
+   4. To find out more about python2, see [HERE](<https://docs.python.org/2/>);
 2. Install & Build Virtual Environment
    1. Open a cmd and type commands below:
      
@@ -90,14 +90,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
       \> `git clone https://github.com/callzhang/stardust_server`
       
       to get our project files.
-   5. For more usage about git, see <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>
+   5. For more usage about git, see [HERE](<https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>)
 4. Install Dependencies
    
    Open git.cmd as Administrator and go through instructions below:
    1. Install shaply
       1. Activate Virtual Environment stardust if inactive
          (See 2.i.c)
-      2. Visite website: <https://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely> and download "Shapely‑1.6.3‑cp27‑cp27m‑win_amd64.whl" onto working directory
+      2. Click [HERE](<https://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely>) and download "Shapely‑1.6.3‑cp27‑cp27m‑win_amd64.whl" onto working directory
       3. Input command:
          
          \> `pip install Shapely‑1.6.3‑cp27‑cp27m‑win_amd64.whl`
