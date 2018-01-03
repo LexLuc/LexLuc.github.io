@@ -92,6 +92,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
       to get our project files.
    5. For more usage about git, see <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>
 4. Install Dependencies
+   
    Open git.cmd as Administrator and go through instructions below:
    1. Install shaply
       1. Activate Virtual Environment stardust if inactive
