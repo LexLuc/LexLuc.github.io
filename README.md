@@ -47,7 +47,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
      
       \>`py -2 --version`
    4. To find out more about python 2, see <https://docs.python.org/2/>;
-2. Install & build virtual environment
+2. Install & Build Virtual Environment
    1. Open a cmd and type commands below:
      
       \>`cd C:\Users\xxx\` // xxx is your user name on Windows.
@@ -103,7 +103,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
          \> `pip install Shapely‑1.6.3‑cp27‑cp27m‑win_amd64.whl`
          
    2. Install other dependences
-      1. Change working directory to the directory *stardust_server* which contains project files;
+      1. Change working directory to the directory **stardust_server** which contains project files;
       2. Edit file "requirements.txt" by deleting the line "shapely" as we've already installed that;
       3. Download & install Microsoft Visual C++ Compiler for Python 2.7 from [HERE]<https://www.microsoft.com/en-us/download/details.aspx?id=44266>;
       4. Download stdint.h from [HERE]<https://github.com/mattn/gntp-send/blob/master/include/msinttypes/stdint.h> and save it to the path `C:\Users\xxx\AppData\Local\Programs\Common\Microsoft\Visual C++ for Python\9.0\VC\include`
