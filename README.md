@@ -40,36 +40,36 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ## Preparation
 1. Install Python 2.7
-  1. Visit <https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi> to download 64-bit python 2;
-  2.  Run the .exe file you've just download by double clicking, and finish installation follow the instructions;
-      (Make sure to tick "add to path" during installation)
-  3. Check version after finishing by command: 
+   1. Visit <https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi> to download 64-bit python 2;
+   2.  Run the .exe file you've just download by double clicking, and finish installation follow the instructions;
+       (Make sure to tick "add to path" during installation)
+   3. Check version after finishing by command: 
      
-     \>`py -2 --version`
-  4. To find out more about python 2, see <https://docs.python.org/2/>;
+      \>`py -2 --version`
+   4. To find out more about python 2, see <https://docs.python.org/2/>;
 2. Install & build virtual environment
-  1. Open cmd and type commands below:
+   1. Open cmd and type commands below:
      
-     \>```cd C:\Users\xxx\``` // xxx is your user name on Windows
-     1. Installation
+      \>```cd C:\Users\xxx\``` // xxx is your user name on Windows
+      1. Installation
       
-        \>```py -2 -m pip install virtualenv```
+         \>```py -2 -m pip install virtualenv```
         
-     2. Build Environment
+      2. Build Environment
         
-        \>```mkdir Envs```
+         \>```mkdir Envs```
         
-        \>`cd Envs`
+         \>`cd Envs`
         
-        \>`py -2 -m virtualenv stardust`
-     3. Activate Environment
+         \>`py -2 -m virtualenv stardust`
+      3. Activate Environment
       
-        \>`stardust\Script\activate`
+         \>`stardust\Script\activate`
         
-        Note: Make sure there is a **(stardust)** on the right side of the command prompt like `(stardust) C:\Users\xxx\Envs\>`
+         Note: Make sure there is a **(stardust)** on the right side of the command prompt like `(stardust) C:\Users\xxx\Envs\>`
         
         
-     4. Deactivate Environment
+      4. Deactivate Environment
 + Install GitHub
   * Visit <https://git-scm.com/download/win> to download git with command prompt only. Alternatively, you can choose GUI or portable version if you like;
   * Run the .exe file you've just downloaded by double clicking, and finish installation follow the instructions.
