@@ -67,6 +67,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
          \>`stardust\Script\activate`
         
          Note: Make sure there is a **(stardust)** on the right side of the command prompt looks like 
+         
          `(stardust) C:\Users\xxx\Envs\>`
         
         
