@@ -96,7 +96,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    Open git.cmd as Administrator and go through instructions below:
    1. Install shaply
       1. Activate Virtual Environment stardust if inactive
-         (See 2.1.3)
+         (See 2.i.c)
       2. Visite website: <https://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely> and download "Shapely‑1.6.3‑cp27‑cp27m‑win_amd64.whl" onto working directory
       3. Input command:
          
