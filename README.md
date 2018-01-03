@@ -46,26 +46,26 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
   4. To find out more about python 2, see <https://docs.python.org/2/>;
 2. Install & build virtual environment
   1. Open cmd and type commands below:
-      \>```cd C:\Users\xxx\``` // xxx is your user name on Windows
-      1. Installation
+     \>```cd C:\Users\xxx\``` // xxx is your user name on Windows
+     1. Installation
       
         \>```py -2 -m pip install virtualenv```
         
-      2. Build Environment
+     2. Build Environment
         
         \>```mkdir Envs```
         
         \>`cd Envs`
         
         \>`py -2 -m virtualenv stardust`
-      3. Activate Environment
+     3. Activate Environment
       
         \>`stardust\Script\activate`
         
         Note: Make sure there is a **(stardust)** on the right side of the command prompt like `(stardust) C:\Users\xxx\Envs\>`
         
         
-      4. Deactivate Environment
+     4. Deactivate Environment
 + Install GitHub
   * Visit <https://git-scm.com/download/win> to download git with command prompt only. Alternatively, you can choose GUI or portable version if you like;
   * Run the .exe file you've just downloaded by double clicking, and finish installation follow the instructions.
