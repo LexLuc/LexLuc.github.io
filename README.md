@@ -42,7 +42,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 1. Install Python 2.7
   1. Visit <https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi> to download 64-bit python 2;
   2.  Run the .exe file you've just download by double clicking, and finish installation follow the instructions. (Make sure to tick "add to path" during installation)
-  3. Check version after finishing by command: \>`py -2 --version`;
+  3. Check version after finishing by command: 
+     \>`py -2 --version`;
   4. To find out more about python 2, see <https://docs.python.org/2/>;
 2. Install & build virtual environment
   1. Open cmd and type commands below:
