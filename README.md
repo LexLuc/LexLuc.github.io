@@ -46,6 +46,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
   4. To find out more about python 2, see <https://docs.python.org/2/>;
 2. Install & build virtual environment
   1. Open cmd and type commands below:
+     
      \>```cd C:\Users\xxx\``` // xxx is your user name on Windows
      1. Installation
       
