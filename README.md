@@ -72,9 +72,11 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
         
         
       4. Deactivate Environment
-+ Install GitHub
-  * Visit <https://git-scm.com/download/win> to download git with command prompt only. Alternatively, you can choose GUI or portable version if you like;
-  * Run the .exe file you've just downloaded by double clicking, and finish installation follow the instructions.
-  * Open git.cmd (windows command prompt) or git.bash (linux command prompt) as you like;
-  * Enjoy :) (For more about git, see <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>)
+         
+         \> `deactivate`
+3. Install GitHub
+  1. Visit <https://git-scm.com/download/win> to download git with command prompt only. Alternatively, you can choose GUI or portable version if you like;
+  2. Run the .exe file you've just downloaded by double clicking, and finish installation follow the instructions.
+  3. Open git.cmd (windows command prompt) or git.bash (linux command prompt) as you like;
+  4. Enjoy :) (For more about git, see <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>)
 +
