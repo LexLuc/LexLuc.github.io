@@ -163,11 +163,10 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    2. On menu bar, select *View->Tool Windows->Database*;
    3. On the right side, select *Database-> **+** ->Datasource->postgreSQL*
    4. Fill in the blanks:
-      | Host     | `localhost`|
-      | -------- |:----------:|
-      | Database | `pybossa`  |
-      | User     | `pybossa`  |
-      | Password | `tester`   |
+      Host&nbsp;&nbsp;&nbsp;&nbsp;`localhost`
+      Database | `pybossa`  |
+      User     | `pybossa`  |
+      Password | `tester`   |
       
       Then click `Test Connection`, it should say "Successful".
    5. See menu bar again and select *View->Tool Windows->Terminal*;
@@ -179,9 +178,3 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
       (If there's a error message similar to "<packet_name\> not found", just install corresponding packet by:
       \> `pip install <packet_name>`)
 4. 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Tables        | Are           | Cool  |
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ------------- |:-------------:| -----:|
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| col 3 is      | right-aligned | $1600 |
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| col 2 is      | centered      |   $12 |
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| zebra stripes | are neat      |    $1 |
