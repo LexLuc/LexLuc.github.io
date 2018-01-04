@@ -164,7 +164,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    3. On the right side, select *Database-> **+** ->Datasource->postgreSQL*
    4. Fill in the blanks:
       
-      Host&nbsp:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`localhost`
+      Host:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`localhost`
       
       Database:`pybossa`
       
