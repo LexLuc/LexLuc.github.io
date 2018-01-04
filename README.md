@@ -102,7 +102,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    1. Install Aliyun API
       1. Activate Virtual Environment *stardust* if inactive
          (See 2.i.c);
-      2. Go to the directory *\stardust_server\* and decompress the file *aliyun_api.tar.gz*;
+      2. Go to the directory *\stardust_server\\* and decompress the file *aliyun_api.tar.gz*;
       3. Install API according to the *readme.txt*.
    2. Install Shaply
       1. Visite website: <https://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely> and download "Shapely‑1.6.3‑cp27‑cp27m‑win_amd64.whl" onto working directory
