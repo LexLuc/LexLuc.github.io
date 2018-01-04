@@ -165,8 +165,11 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    4. Fill in the blanks:
       
       Host&nbsp;&nbsp;&nbsp;&nbsp;`localhost`
+      
       Database&nbsp;&nbsp;&nbsp;&nbsp;`pybossa`
+      
       User&nbsp;&nbsp;&nbsp;&nbsp;`pybossa`
+      
       Password&nbsp;&nbsp;&nbsp;&nbsp;`tester`
       
       Then click `Test Connection`, it should say "Successful".
