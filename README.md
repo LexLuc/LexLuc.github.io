@@ -119,7 +119,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
          
          \> `pip install -r requirements.txt`
          
-      6. After it finished, you can check which packet has been installed by typing:
+      6. After it finished, you can check which packets has been installed by typing:
          
          \> `pip list`
 4. Install postgreSQL
@@ -211,4 +211,4 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ## Confirm Configuration
    **\> `python run.py`**
    
-   **Visit http://localhost:5000**
+   **Visit http://localhost:5000** to check
