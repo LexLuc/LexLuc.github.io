@@ -134,7 +134,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 1. Configure Local Settings
    1. Create a copy of file *settings_local.py.tmpl* and rename it as "settings_local.py";
    2. Edit the new file *settings_local.py*:
-      * Modify the line `#DEBUG = False` as `DEBUG = True`;
+      * Modify the line `#DEBUG = False` to `DEBUG = True`;
       * Add a new line with `PYBOSSA_REDIS_CACHE_DISABLED = True`;
       * Save & close the file.
    3. Create a copy of file *alembic.ini.template* and rename it as *alembic.ini*;
