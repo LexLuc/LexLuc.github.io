@@ -127,7 +127,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    3. To find more about postgreSQL, visit website [postgreSQL Documents](https://www.postgresql.org/docs/).
 5. Install Redis for Windows
    1. Visit https://github.com/MicrosoftArchive/redis/releases to download MSI installer;
-   2. Run the installer.
+   2. Run the installer and finish the installation.
 
 ## Environment Configuration
 1. Configure Local Settings
@@ -139,6 +139,11 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    3. Create a copy of file *alembic.ini.template* and rename it as *alembic.ini*;
 2. Create User and Database for Pybossa
    1. Run postgreSQL service from "start" button;
+      
+      If the service was launched successfully, you can verify this by:
+      *  Tap keyboard shortcut "Windows + R";
+      *  Input "services" and run;
+      *  Check out if the service postgreSQL does exist and is running.
    2. Open a cmd and run:
       
       \> `psql -U postgres -h localhost -p 5432`
@@ -147,7 +152,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
       
       ```WARNING: Console code page (850) differs from Windows code page (1252)
          8-bit characters might not work correctly. See psql reference
-         page "Notes for Windows users" for details.```
+         page "Notes for Windows users" for details.
+      ```
       
       then exit the psql and type:
       
@@ -165,8 +171,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    4. Fill in the blanks:
       * Host:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`localhost`
       * Database:`pybossa`
-      * User:`pybossa`
-      * Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`tester`
+      * User:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`pybossa`
+      * Password:`tester`
       
       Then click `Test Connection`, it should say "Successful".
    5. See menu bar again and select *View->Tool Windows->Terminal*;
@@ -177,4 +183,26 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
       It should show you that several SQL statements has been executed.
       (If there's a error message similar to "<packet_name\> not found", just install corresponding packet by:
       \> `pip install <packet_name>`)
-4. 
+4. Start Redis Service
+   1. Open cmd as Administrator;
+   2. Change working directory to *stardust_server*;
+   3. Copy file sentinel.conf under *stardust_server\contrib* to where the Redis was installed; By default, just type
+      ...\stardust_server>`cp contrib\sentinel.conf C:\Program Files\Redis`
+   4. Then, change working directory to *Redis*; By default, type
+      
+      \> `cd C:\Program Files\Redis`
+   5. Install sentinel as system service with config file:
+
+      \> `redis-server --service-install --service-name Sentinel_1 sentinel.conf --sentinel`
+   6. Run Sentinel_1 service:
+      
+      \> `redis-server --service-run --service-name Sentinel_1 sentinel.conf --sentinel`
+   7. Start Redis server with config file:
+   
+      \> `redis-server redis.windows.conf`
+      
+      To verify whether Redis service is running, just check it on *service* (refer to method mentioned in session 2.1)
+   *  If you'd like to remove the Sentinel_1 service, here's the command:
+      
+      \> `sc delete Sentinel_1`
+   
