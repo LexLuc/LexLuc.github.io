@@ -78,7 +78,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 4. Install Pycharm
    1. Visit [Pycharm Official Website](https://www.jetbrains.com/pycharm/download/#section=windows) and download Pycharm Professional version.
    2. Install Pycharm follow the installer instruction;
-   3. To get started with Pycharm, see [Pycharm Documents](https://www.jetbrains.com/help/pycharm/first-steps.html).
+   3. To activate Pycharm, ask your successors for help;
+   4. To get started with Pycharm, see [Pycharm Documents](https://www.jetbrains.com/help/pycharm/first-steps.html).
 3. Install GitHub
    1. Visit <https://git-scm.com/download/win> to download git with command prompt only; 
       Alternatively, you can choose GUI or portable version if you like;
