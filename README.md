@@ -164,13 +164,13 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    3. On the right side, select *Database-> **+** ->Datasource->postgreSQL*
    4. Fill in the blanks:
       
-      Host&nbsp;&nbsp;&nbsp;&nbsp;`localhost`
+      Host&nbsp:;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`localhost`
       
-      Database&nbsp;&nbsp;&nbsp;&nbsp;`pybossa`
+      Database:&nbsp;&nbsp;&nbsp;&nbsp;`pybossa`
       
-      User&nbsp;&nbsp;&nbsp;&nbsp;`pybossa`
+      User:`pybossa`
       
-      Password&nbsp;&nbsp;&nbsp;&nbsp;`tester`
+      Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`tester`
       
       Then click `Test Connection`, it should say "Successful".
    5. See menu bar again and select *View->Tool Windows->Terminal*;
