@@ -167,7 +167,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
       | -------- |:----------:|
       | Database | `pybossa`  |
       | User     | `pybossa`  |
-      | Password |:`tester`  :|
+      | Password | `tester`   |
       
       Then click `Test Connection`, it should say "Successful".
    5. See menu bar again and select *View->Tool Windows->Terminal*;
