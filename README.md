@@ -178,7 +178,9 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
       Then click `Test Connection`, it should say "Successful".
    5. See menu bar again and select *View->Tool Windows->Terminal*;
    6. In the terminal window, activate Virtual Environment *stardust* first, then run:
-   
+      
+      \> `python settings_local.py`
+      
       \> `python cli.py db_create`
       
       It should show you that several SQL statements has been executed.
@@ -206,4 +208,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    *  If you'd like to remove the Sentinel_1 service, here's the command:
       
       \> `sc delete Sentinel_1`
+## Confirm Configuration
+   **\> `python run.py`**
    
+   **Visit http://localhost:5000**
