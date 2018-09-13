@@ -1,6 +1,7 @@
----
 {% include mathjax.html %}
 
+---
+mathjax: true
 ---
 
 <h1 id="独立（independence）">独立（Independence）</h1>
